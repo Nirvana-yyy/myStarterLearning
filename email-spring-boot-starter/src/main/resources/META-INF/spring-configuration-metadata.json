@@ -1,0 +1,36 @@
+{
+  "groups": [
+    {
+      "name": "emali.config",
+      "type": "org.example.props.EmailProperties",
+      "sourceType": "org.example.props.EmailProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "emali.config.host",
+      "type": "java.lang.String",
+      "sourceType": "org.example.props.EmailProperties",
+      "defaultValue": "2799595701@qq.com"
+    },
+    {
+      "name": "emali.config.password",
+      "type": "java.lang.String",
+      "sourceType": "org.example.props.EmailProperties",
+      "defaultValue": ""
+    },
+    {
+      "name": "emali.config.port",
+      "type": "java.lang.Integer",
+      "sourceType": "org.example.props.EmailProperties",
+      "defaultValue": 22
+    },
+    {
+      "name": "emali.config.username",
+      "type": "java.lang.String",
+      "sourceType": "org.example.props.EmailProperties",
+      "defaultValue": ""
+    }
+  ],
+  "hints": []
+}

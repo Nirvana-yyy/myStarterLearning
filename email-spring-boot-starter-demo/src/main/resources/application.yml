@@ -1,0 +1,15 @@
+emali:
+  config:
+    host: 1111@gmail.com
+    password: 123456
+    username: nirvana
+    port: 121
+
+spring:
+  application:
+    name: email-spring-boot-starter-demo
+
+server:
+  servlet:
+    context-path: /
+  port: 8080
